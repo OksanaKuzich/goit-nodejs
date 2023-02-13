@@ -1,4 +1,3 @@
-// console.log("Hello from Denys and Andrey");
 const express = require("express");
 const app = express();
 app.use(express.json());
