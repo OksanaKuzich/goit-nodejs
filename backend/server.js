@@ -12,7 +12,6 @@ const jwt = require("jsonwebtoken");
 
 const auth = require("./middlewares/auth");
 
-// console.log(require("dotenv").config({ path: configPath }));
 const { PORT = 5001 } = process.env;
 const connectDb = require("../config/db");
 
